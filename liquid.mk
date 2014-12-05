@@ -3,7 +3,7 @@ $(call inherit-product, device/samsung/d2spr/full_d2spr.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 
-# Inherit some common Liquid stuff.
+# Inherit some common LiquidSmooth stuff.
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
